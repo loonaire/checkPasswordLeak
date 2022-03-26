@@ -19,9 +19,6 @@ puis saisir le mot de passe à tester.
 
 #>
 
-
-#>
-
 do{
 $password = Read-Host -Prompt "Saisir un mot de passe" -AsSecureString 
 } while ($password.Length -eq 0)
